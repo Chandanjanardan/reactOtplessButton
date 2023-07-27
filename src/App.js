@@ -11,9 +11,12 @@ function App() {
 useEffect(() => {
   
   loadScript()
+  
   window.otpless = (otplessUser) => {
      
     console.log(otplessUser)
+    window.location.href="https://www.google.com"
+    
   };
   return () => {
     let scr = document.getElementById('otplessIdScript')
@@ -21,8 +24,9 @@ useEffect(() => {
   };
 }, []);
   return (
-    <div id ="otpless" className="App" custom="true">
-      <button>hehe</button>
+    
+    <div id ="otpless"  className="App" custom="true">
+      hello
     </div>
   );
 }
