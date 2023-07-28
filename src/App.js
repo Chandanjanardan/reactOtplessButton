@@ -28,6 +28,9 @@ useEffect(() => {
     <div id ="otpless"  className="App" custom="true">
       hello
     </div>
+    <div id ="otpless"  className="App" custom="true">
+      hello
+    </div>
   );
 }
 
